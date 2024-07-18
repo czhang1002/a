@@ -141,9 +141,6 @@
     .pet_records_container .pet_record {
         display: flex;
         align-items: center;
-        gap: 10px;
-
-        padding: 5px 7px;
 
         height: 100px;
         border: 1px solid #49588c;
@@ -164,15 +161,26 @@
         display: flex;
         align-items: center;
 
+        padding: 5px 7px;
+
         width: 150px;
         border-right: 1px solid #49588c;
+    }
+    .pet_record_header b {
+        user-select: none;
+        cursor: pointer;
+    }
+    .pet_record_header b:hover {
+        background-color: #e1e2e5;
+        transition: background-color 0.7s;
     }
     .pet_record div {
         height: 90px;
     }
+    
     .pet_record .pet_pic {
         height: 90px;
-        margin: 0px 25px 0px 25px;
+        margin: 0px 28px 0px 28px;
     }
     .pet_record_header .pet_owner_contact,
     .pet_record .pet_owner_contact {
