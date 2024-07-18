@@ -2,10 +2,10 @@
 const navs = document.querySelectorAll("menu li");
 navs.forEach(nav => {
     nav.addEventListener("click", () => {
-        cleared_Selection();
+        cleared_selection();
         nav.classList.add("active");
     })
-    function cleared_Selection() {
+    function cleared_selection() {
         navs.forEach(nav => {
             nav.classList.remove("active");
         })
@@ -16,10 +16,10 @@ navs.forEach(nav => {
 const pet_record_header = document.querySelectorAll(".pet_record_header b");
 pet_record_header.forEach(selection => {
     selection.addEventListener("click", () => {
-        cleared_Selection();
+        cleared_selection();
         selection.classList.add("active");
     })
-    function cleared_Selection() {
+    function cleared_selection() {
         pet_record_header.forEach(selection => {
             selection.classList.remove("active");
         })
