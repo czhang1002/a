@@ -1,0 +1,180 @@
+    * {
+        font-family:'Times New Roman', Times, serif;
+        color: #49588c;
+    }
+    body {
+        background-color: #fcf9f8; 
+    }
+/* Header Style */
+    .PMS_header_container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 220px;
+        z-index: 2;
+
+        display: flex;
+        align-items: center;
+
+        padding: 0px 20px 0px 20px;
+
+        height: 120px;
+        /* min-width: 1400px; */
+        background-color: #90b3ce;
+    }
+    .PMS_header_container h3 {
+        font-size: 50px;
+        color: #49588c;
+        margin-right: 500px;
+    }
+    .header_image {
+        height: 120px;
+    }
+
+/* Navigation Style */
+    .navigations_contanier {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 220px;
+        background-color: #90b3ce;
+        color: #49588c;
+    }
+    .navigations_contanier .logo {
+        margin: 15px;
+
+        width: 90px;
+        border-radius: 100%;
+    }
+    .navigations_contanier menu {
+        padding: 0;
+
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .navigations_contanier menu li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px solid transparent;
+        border-radius: 7px;
+        padding: 5px 10px;
+
+        margin-bottom: 25px;
+    }
+    .navigations_contanier menu li:hover {
+        border: 1px solid #49588c;
+        /* color: #ecd989; */
+        transition: border 0.7s;
+    }
+    .navigations_contanier menu li.active {
+        border: 1px solid #49588c;
+        /* color: #ecd989; */
+        transition: border 0.7s;
+    }
+
+/* Body Style */
+    .body_container {
+        overflow: hidden;
+    }
+    .pet_records_section {
+        margin-left: 240px; 
+        margin-top: 140px;
+
+        width: 1150px;
+        height: 800px;
+    }
+    .pet_records_section .search_container {
+        display: flex;
+        flex-direction: row;
+
+        margin-bottom: 5px;
+    }
+    .search_container .pet_search {
+        padding: 5px;
+
+        height: 25px;
+        width: 200px;
+        border: 1px solid #49588c;
+        outline: none;
+        font-size: 18px;
+    }
+    .search_container .search_button {
+    /* .search_container .owned_button,
+    .search_container .adopt_button { */
+        display: flex;
+        align-items: center;
+
+        font-size: 30px;
+        border: 1px solid #49588c;
+        border-left: none;
+        background-color: #90b3ce;
+    }
+    .search_container .owned_button {
+    /* .search_container .adopt_button { */
+        margin-left: 20px;
+
+        font-size: 20px;
+        border: 1px solid #49588c;
+    }
+    .search_container .search_button:hover ion-icon {
+    /* .search_container .owned_button:hover,
+    .search_container .adopt_button:hover { */
+        color: gray;
+        transition: color 0.7s;
+    }
+    
+
+    .pet_records_container {        
+        border-bottom: 1px solid #49588c;
+        border-radius: 5px;
+    }
+    .pet_records_container .pet_record_header,
+    .pet_records_container .pet_record {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        padding: 5px 7px;
+
+        height: 100px;
+        border: 1px solid #49588c;
+        /* border-radius: 5px; */
+        border-bottom: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .pet_records_container .pet_record:hover {
+        background-color: #e1e2e5;
+        transition: background-color 0.7s;
+    }
+    .pet_records_container .pet_record_header {
+        height: auto;
+    }
+    .pet_record_header b,
+    .pet_record div {
+        display: flex;
+        align-items: center;
+
+        width: 150px;
+        border-right: 1px solid #49588c;
+    }
+    .pet_record div {
+        height: 90px;
+    }
+    .pet_record .pet_pic {
+        height: 90px;
+        margin: 0px 25px 0px 25px;
+    }
+    .pet_record_header .pet_owner_contact,
+    .pet_record .pet_owner_contact {
+        border: none;
+    }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/PMS.css">
+        <title>PMS</title>
+    </head>
+
+    <body>
+        <header class="PMS_header_container">
+            <h3>PMS</h3>
+            <img class="header_image" src="Images/PMS_header.png">
+        </header>
+        <main class="body_container">
+            <nav class="navigations_contanier">
+                <img class="logo" src="Images/meow.png" alt="">
+                <menu>
+                    <li>Appointment</li>
+                    <li>Pet Records</li>
+                    <li>Owner Records</li>
+                    <li>Medical Records</li>
+                    <li>Adoption</li>
+                </menu>
+            </nav>
+
+            <section class="pet_records_section">
+                <form action="#" class="search_container">
+                    <input type="text" class="pet_search" name="pet_search">
+                    <button type="submit" class="search_button"><ion-icon name="search-outline"></ion-icon></button>
+                    <!-- <button type="submit" class="owned_button">Owned</button>
+                    <button type="submit" class="adopt_button">Adopt</button> -->
+                </form>
+
+                <div class="pet_records_container">
+                    <div class="pet_record_header">
+                        <b class="pet_pic">Picture</b>
+                        <b class="pet_name">Name</b>
+                        <b class="pet_id">ID</b>
+                        <b class="pet_age">Age</b>
+                        <b class="pet_status">Status</b>
+                        <b class="pet_owner">Owner</b>
+                        <b class="pet_owner_contact">Contact</b>
+                    </div>
+                    <div class="pet_record">
+                        <div><img class="pet_pic" src="Images/meow.png"></div>
+                        <div class="pet_name">Name</div>
+                        <div class="pet_id">ID</div>
+                        <div class="pet_age">Age</div>
+                        <div class="pet_status">Awaiting Adoption</div>
+                        <div class="pet_owner">Awaiting Adoption</div>
+                        <div class="pet_owner_contact">123456</div>
+                    </div>
+                    <div class="pet_record">
+                        <div><img class="pet_pic" src="Images/meow.png"></div>
+                        <div class="pet_name">Name</div>
+                        <div class="pet_id">ID</div>
+                        <div class="pet_age">Age</div>
+                        <div class="pet_status">Owned</div>
+                        <div class="pet_owner">Owner</div>
+                        <div class="pet_owner_contact">123456</div>
+                    </div>
+                    <div class="pet_record">
+                        <div><img class="pet_pic" src="Images/meow.png"></div>
+                        <div class="pet_name">Name</div>
+                        <div class="pet_id">ID</div>
+                        <div class="pet_age">Age</div>
+                        <div class="pet_status">Owned</div>
+                        <div class="pet_owner">Owner</div>
+                        <div class="pet_owner_contact">123456</div>
+                    </div>
+                    <div class="pet_record">
+                        <div><img class="pet_pic" src="Images/meow.png"></div>
+                        <div class="pet_name">Name</div>
+                        <div class="pet_id">ID</div>
+                        <div class="pet_age">Age</div>
+                        <div class="pet_status">Owned</div>
+                        <div class="pet_owner">Owner</div>
+                        <div class="pet_owner_contact">123456</div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="JS/PMS.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+
+
+</html>
